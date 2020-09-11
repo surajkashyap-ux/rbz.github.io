@@ -1,0 +1,1 @@
+$(document).ready(function(){var t,i=function(){$("#status-chart").sparkline([32,80,0,17,28],{type:"pie",width:"220",height:"312",sliceColors:["#4fc6e1","#6658dd","#f7b84b","#f1556c","#1abc9c"]})};i(),$(window).resize(function(e){clearTimeout(t),t=setTimeout(function(){i()},300)})});
